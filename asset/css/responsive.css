@@ -1,0 +1,1806 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+   
+}
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    #banar {
+        padding-top: 55px;
+    }
+    #main_header .menu ul li a {
+        font-size: 13px;
+        margin-left: 28px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    #goals_main .goals_main_item {
+        min-height: 321px;
+    }
+    #main_footer_top .footer_info .info ul li img {
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #main_footer_top .footer_info .info ul li {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #main_footer_top .footer_link {
+        padding-left: 0px;
+    }
+    #main_footer_top .footer_link .footer_link_item ul li a {
+        font-size: 13px;
+    }
+    #main_footer_top .social .download_area ul li a img {
+        height: 37px;
+    }
+    #main_footer_top .social .download_area ul li a {
+        margin-right: 10px;
+    }
+
+    /*-- single goal page --*/
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 a {
+        left: -5px;
+        display: block;
+        float: right;
+        margin-top: 11px;
+    }
+
+    /*-- single badge page --*/
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 19px 0px;
+    }
+    /*-- single master class -*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left p {
+        font-size: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 116px;
+        margin-right: 10px;
+        font-size: 14px;
+        padding: 8px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 291px !important;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        min-width: 192px;
+        margin-right: 7px;
+        padding: 4px 17px 3px 5px;
+    }
+
+    /*-- this is for all popup --*/
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    
+    
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #main_header .menu ul li a {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    #main_header .menu ul .btn_sp_1 a {
+        padding: 5px 40px 10px 40px;
+    }
+    #main_header .logo a img {
+        height: 14px;
+    }
+    #banar {
+        padding: 47px 0px;
+        padding-bottom: 100px;
+    }
+    #banar .banar_content p {
+        width: 74%;
+    }
+
+     /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 19px 0px 5px 0px;
+    }
+    
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 27px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 11px;
+        font-size: 14px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        width: 62%;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 a {
+        left: -5px;
+        display: block;
+        float: right;
+        margin-top: 25px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    /*-- single badge --*/
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 21px 0px 30px 0px;
+    }
+    #singleGoal_banar {
+        padding: 19px 0px 25px 0px;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 10px;
+        margin-top: 15px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    /*-- master clas  --*/
+    #masterClass_banar {
+        padding: 30px 0px 50px 0px;
+    }
+    #masterClass_banar .masterClass_banar_content h3 {
+        font-size: 30px;
+    }
+    #masterClass_banar .masterClass_banar_content p {
+        font-size: 14px;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+    .masterClass_scroll_item_1_class .masterClass_scroll_item_1_main .masterClass_scroll_item_1_main_item .content .content_right h5 a {
+        position: relative;
+        left: 7px;
+        display: block;
+        float: right;
+    }
+    /*-- single master clas  --*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 27px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 85px;
+        margin-right: 4px;
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a {
+        padding: 13px 24px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_2 a {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 182px !important;
+        padding: 10px 0px;
+        color: #fff;
+        font-size: 11px;
+        padding-bottom: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_2 a {
+        padding: 6px 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomvideo .video-js {
+        width: 110%;
+        height: 317px;
+        cursor: none;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        position: relative;
+        display: inline-block;
+        min-width: 167px;
+        border: 2px solid #CBD8DB;
+        margin-right: 1px;
+        padding: 1px 3px 1px 2px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    #masterClassSkillPage .skill_2 .skill_2_slider .skill_2_slider_item {
+        padding: 15px 10px 24px 4px;
+        font-size: 11px;
+        color: #262525;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+
+    /*-- class attend --*/
+    #attendClassRettig .right ul li {
+        margin-right: 10px;
+    }
+    #attendClassRettig .right ul li img{
+        height: 35px;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info h3 {
+        font-size: 16px;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info {
+        padding-left: 52px;
+    }
+
+    /*-- class submission --*/
+    #main_header .menu ul .btn_sp_2 a {
+        width: 139px;
+    }   
+    #main_header .menu ul .btn_sp_2 a img{
+        height: 35px;
+    }
+
+    .classSubmissionMainContainer .comon_bred_come ul li {
+        font-size: 13px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 26px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 228px;
+        font-size: 15px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 271px;
+        font-size: 14px;
+    }
+    
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- bookClassPopup popup --*/
+    #bookClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hide_sm{
+        display: none !important;
+    }
+    .show_sm{
+        display: block !important;
+    }
+    #banar {
+        padding: 42px 0px;
+        padding-bottom: 91px;
+    }
+    #banar .banar_content p {
+        width: 100%;
+    }
+    #banar .banar_content a {
+        padding: 12px 48px;
+        padding-bottom: 18px;
+        font-size: 13px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 4px;
+        font-size: 9px;
+    }
+    #goals_main .goals_main_item {
+        min-height: auto;
+    }
+    #main_footer_top .footer_info .info ul li {
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #main_footer_top .footer_info .info ul li img {
+        margin-bottom: 19px;
+    }
+    #main_footer_top .footer_link .footer_link_item ul li a {
+        font-size: 13px;
+    }
+
+    /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 10px 0px 5px 0px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 24px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 9px;
+        font-size: 14px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        margin-top: 12px;
+        width: 87%;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 14px;
+        margin-top: 11px;
+        font-weight: 500;
+    }
+    #badge_single_goals .badge_single_goals_item.text-center {
+        margin-bottom: 20px;
+    }
+
+    #masterClass .masterClass_main .masterClass_main_item .image .info h3 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .image .info h5 {
+        font-size: 10px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item{
+        margin-bottom: 30px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    #master_class_project .master_class_project_main .master_class_project_main_item {
+        margin-bottom: 30px;
+    }
+    #masterClass .masterClass_title h3 {
+        width: 195px;
+        font-size: 15px;
+    }
+    #mastaerClass_program .mastaerClass_program_title h3 {
+        width: 151px;
+        font-size: 15px;
+    }
+    #master_class_project .master_class_project_title h3 {
+        width: 150px;
+        font-size: 15px;
+    }
+    
+    /*-- badge page --*/
+    #badge_page_main .badge_page_main_item .content h3 {
+        font-size: 16px;
+    }
+
+    /*-- master class --*/
+    .masterClass_scroll_item_1_class .masterClass_scroll_item_1_main .masterClass_scroll_item_1_main_item .image img{
+        width: 100%;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+
+    /*-- single master class --*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopRight button {
+        width: 156px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopRight button span {
+        display: block;
+        float: left;
+        margin-right: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent {
+        padding-left: 0px;
+        margin-top: 34px;
+    }
+    #masterClassSkillPage .top h3 {
+        font-size: 15px;
+        padding-top: 13px;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        margin-bottom: 19px;
+    }
+    #masterClassSkillPage .skill_2 .skill_2_slider .skill_2_slider_item {
+        padding: 15px 10px 24px 4px;
+        font-size: 11px;
+        color: #262525;
+    }
+    #attendClassMasterCLass .attendClassMasterCLassMain .attend_class_item {
+        margin-bottom: 30px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .whatStudentCreateSliderItem img {
+        width: 55%;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-next {
+        right: 95px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-prev {
+        left: 95px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+    #classAtendBanar .bottom .left h3 {
+        font-size: 25px;
+    }
+    section#attendClassRettig .right {
+        margin-top: 13px;
+        text-align: center;
+    }
+    #attendCLassInviteFriend .invite .buttonInvite a {
+        display: block;
+        margin: 0 auto;
+        margin-top: 11px;
+        width: 70%;
+    }
+    #attendClassSkill .skills_bottom ul li {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    #attendClassSkill .skills_bottom ul li h4 {
+        min-width: 235px;
+        margin-right: 7px;
+    }
+    #attendClassSkill .goals .title h3 {
+        font-size: 14px;
+        padding-top: 13px;
+    }
+    #coverdInClass .coverdVideo {
+        margin-top: 30px;
+    }
+    /*-- class submission --*/
+    #main_header .menu ul .btn_sp_2 a {
+        width: 139px;
+    }   
+    #main_header .menu ul .btn_sp_2 a img{
+        height: 35px;
+    }
+
+    .classSubmissionMainContainer .comon_bred_come ul li {
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 22px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 200px;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 260px;
+        font-size: 14px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer {
+        padding: 30px 20px 30px 20px;
+    }
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- bookClassPopup popup --*/
+    #bookClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup .joinClassPopupContiner {
+        width: 90%;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup .badgePopupContainer {
+        width: 90%;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+
+    #submission_error{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #submission_error::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_error::-moz-scrollbar {
+      display: none;
+    }
+    #submission_error::-o-scrollbar {
+      display: none;
+    }
+    #submission_error::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .mpl0{
+        padding-left: 0px !important;
+    }
+    .mpr0{
+        padding-right: 0px !important;
+    }
+    .show_mobile{
+        display: block !important;
+    }
+    .hide_mobile{
+        display: none !important;
+    }
+    .banar_shape{
+        display: none;
+    }
+    #banar {
+        padding: 50px 0px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+    #banar .banar_content h3 {
+        font-size: 24px;
+    }
+    #banar .banar_content p {
+        font-size: 12px;
+        width: 100%;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    #banar .banar_content a {
+        padding: 12px 0px;
+        display: block;
+        font-size: 14px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 3px;
+        font-size: 10px;
+    }
+    #goals_main .goals_main_item {
+        min-height: auto !important;
+    }   
+    #goals_main .load_more_btn {
+        margin-top: 0px;
+    }
+    #goals_main {
+        padding-bottom: 56px;
+    }
+    #footer_bottom {
+        padding: 22px 0px;
+    }
+    #footer_bottom .footer_bottom_content p {
+        font-size: 11px;
+    }
+    #signUpPopup{
+        background: #fff;
+    }
+    #signUpPopup .signUpPopup_container {
+        width: 100%;
+        padding: 30px 20px;
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+        border-radius: 0px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_btn ul {
+        width: 79.3%;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_1 input {
+        font-size: 14px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_1 .iti--allow-dropdown .iti__flag-container .iti__selected-flag {
+        font-size: 15px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_2 input {
+        font-size: 15px;;
+    }
+    .iti--container {
+        z-index: 999999999999999999999;
+    }
+    section#otp_popup {
+        background: #fff;
+    }
+    #otp_popup .otp_popup_container {
+        width: 100%;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+        padding: 30px 20px;
+    }
+    #otp_popup .otp_popup_container .opt_terms_condition p {
+        font-size: 11px;
+    }
+    #otp_popup .otp_popup_container .opt_terms_condition p a {
+        margin-left: 3px;
+    }
+    #signinConfirmation_popup{
+        background: #fff;
+    }
+    #signinConfirmation_popup .signinConfirmation_popup_container {
+        width: 100%;
+        padding: 50px 20px;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+    }
+    #signinConfirmation_popup .signinConfirmation_popup_container a.btn_1 {
+        width: 62%;
+    }
+    /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 30px 0px;
+        background: #fff;
+        border-bottom: 2px solid #ddd;
+    }
+    #singleGoal_banar #banar_shape_2{
+        display: none;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 22px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 20px 0px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 9px;
+        font-size: 12px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+    #singleGoal_banar .comon_bred_come{
+        display: none;
+    }
+    #masterClass {
+        padding: 0px 0px 60px 0px;
+    }
+    #masterClass .masterClass_title h3 {
+        width: 186px;
+        font-size: 14px;
+    }      
+    #masterClass .masterClass_main .masterClass_main_item .image .info h3 {
+        font-size: 19px;
+        margin-top: 7px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .image .info h5 {
+        font-size: 10px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    #mastaerClass_program .mastaerClass_program_title h3 {
+        width: 147px;
+        font-size: 13px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .content h5 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item {
+        margin-bottom: 30px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info {
+        padding: 0px 20px;
+    }
+    #master_class_project .master_class_project_title h3 {
+        width: 150px;
+        font-size: 14px;
+    }
+    #master_class_bottom_btn .master_class_bottom_btn_main a {
+        font-size: 13px;
+    }
+        
+    /*-- master class --*/
+    #masterClass_banar {
+        padding: 40px 0px;
+    }
+    #masterClass_banar .masterClass_banar_content h3 {
+        font-size: 26px;
+    }
+    #masterClass_banar .masterClass_banar_content p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a h4 {
+        font-size: 10px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a h3 {
+        font-size: 12px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a p {
+        font-size: 11px;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+    
+    /*-- single goald --*/
+    #singleMasterClassPageBanar {
+        padding: 30px 0px 50px 0px;
+        background: #FBFCF7;
+        overflow-x: hidden;
+    }
+
+    #singleMasterClassPageBanar .comon_bred_come {
+        padding: 0px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop {
+        margin-top: 6px;
+        padding: 0px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 23px;
+        margin-top: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom {
+        margin-top: 30px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomvideo .vjs-poster {
+        background-position: 102% 15%;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent {
+        padding-left: 0px;
+        padding: 20px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 17px;
+        margin-top: 4px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .right p {
+        font-size: 13px;
+        left: -8px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 90px;
+        margin-right: 12px;
+        font-size: 13px;
+        padding: 8px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a {
+        padding: 11px 17px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-size: 14px;
+        min-width: 130px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a span {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_2 a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 100% !important;
+        padding: 10px 20px 16px 20px;
+    }
+    #masterClassSkillPage .top h3 {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    #masterCLassCoverd .masterCLassCoverdContent h3 {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    #masterCLassCoverd .masterCLassCoverdContent p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #masterClassAssingment .masterClassAssingment_top h3 {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    #whatStudentCreate .title h3 {
+        font-size: 15px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .whatStudentCreateSliderItem img {
+        width: 66%;
+    }
+    #whatStudentCreate #workBgStident {
+        height: 58%;
+    }
+    #whatStudentCreate:after {
+        height: 42px;
+        bottom: -1px;
+    }
+    #masterCLassCoverd {
+        padding-top: 0px;
+    }
+    #masterCLassCoverd {
+        padding-bottom: 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+
+    /*-- class attend --*/
+    #classAtendBanar {
+        padding: 6px 0px 30px 0px;
+    }
+    #classAtendBanar .bottom .left h3 {
+        font-weight: 500;
+        font-size: 21px;
+        margin-top: 7px;
+    }
+    #classAtendBanar .bottom .left p {
+        margin-top: 0px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    section#attendClassRettig {
+        text-align: center;
+        padding: 40px 17px;
+    }
+    #attendClassRettig .right{
+        margin-top: 20px;
+    }
+    #attendClassRettig .right ul li {
+        display: inline-block;
+        margin-right: 0px;
+        cursor: pointer;
+        margin: 0px 7px;
+    }
+    #attendClassRettig .right ul li img {
+        height: 40px;
+    }
+    #attendCLassInviteFriend .invite .info h4 {
+        font-size: 13px;
+        top: 0px;
+    }
+    #attendCLassInviteFriend .invite .info p {
+        margin-top: 4px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #474747;
+        position: relative;
+        top: 0px;
+        line-height: 19px;
+    }
+    #attendCLassInviteFriend .invite .buttonInvite a {
+        display: block;
+        background: #FF3A58;
+        font-family: gc;
+        font-size: 14px;
+        color: #fff;
+        padding: 12px 0px;
+        padding-bottom: 17px;
+        border-radius: 5px;
+        width: 130%;
+        font-size: 8px;
+        left: -12px;
+        position: relative;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info h3 {
+        font-size: 14px;
+        color: #264C55;
+        font-weight: 600;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info {
+        padding-left: 50px;
+        position: relative;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info a{
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    #attendClassSkill .goals .title h3 {
+        font-size: 12px;
+        padding-top: 12px;
+        line-height: 22px;
+    }
+    #coverdInClass .info h3 {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    #coverdInClass .coverdVideo{
+        margin-top: 30px;
+    }
+    #coverdInClass .coverdVideo .vjs-poster {
+        background-position: center center;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    /*-- class submission --*/
+    #classSubmissionMain .classSubmissionMainContainer {
+        padding: 20px 10px;
+        padding-bottom: 100px;
+        border-radius: 7px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top {
+        margin-top: 0px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 20px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 220px;
+        font-size: 13px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top p {
+        margin-top: 16px;
+        font-size: 14px;
+        width: 100%;
+        line-height: 23px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .video_submission .video-js {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 257px;
+        font-size: 14px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .info_after_upload .upload_item h4 {
+        font-size: 11px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .info_after_upload .upload_item h4 img {
+        margin-right: 5px;
+        height: 19px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .file_upload_btn button {
+        font-size: 11px;
+        padding: 9px 20px 14px 20px;
+        margin: 0px 5px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .file_upload_btn button#submit_file {
+        padding: 14px 18px 17px 18px;
+    }
+    #classSubmissionMain {
+        padding: 10px 0px;
+    }
+    /*-- submission feedback --*/
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback .mentor_feedback_video .video-js {
+        width: 100%;
+        height: 245px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_quote {
+        margin-top: 40px;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom {
+        width: 100%;
+        background: url(../img/shape/15.png);
+        padding: 20px;
+        background-size: cover;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom a {
+        font-size: 10px;
+        padding: 11px 33px;
+        padding-bottom: 17px;
+        margin-top: 16px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom h3 {
+        font-size: 11px;
+        line-height: 23px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_btn ul {
+        width: fit-content !important;
+    }
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        z-index: 99999999999999;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    #bookClassPopup .bookClassPopupContainer {
+        width: 100%;
+    }
+    #bookClassInsufficant .bookClassInsufficantCotainer {
+        width: 100%;
+        padding: 21px 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul{
+        display: flex;
+    }
+    #joinClassPopup .joinClassPopupContiner .bottom .link_box {
+        width: 100%;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup .joinClassPopupContiner {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup .badgePopupContainer {
+        width: 100%;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    #submission_success .submission_success_container {
+        width: 95%;
+        padding: 50px 10px;
+    }
+    #submission_success .submission_success_container .content h4 {
+        font-size: 12px;
+    }
+    #submission_success{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #submission_success::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_success::-moz-scrollbar {
+      display: none;
+    }
+    #submission_success::-o-scrollbar {
+      display: none;
+    }
+    #submission_success::-ms-scrollbar {
+      display: none;
+    }
+    #submission_error{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #submission_error::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_error::-moz-scrollbar {
+      display: none;
+    }
+    #submission_error::-o-scrollbar {
+      display: none;
+    }
+    #submission_error::-ms-scrollbar {
+      display: none;
+    }
+    #submission_error .submission_errorContainer {
+        width: 95%;
+        padding: 50px 10px;
+    }
+    #submission_error .submission_errorContainer .content h3 {
+        font-size: 12px;
+    }
+    #submission_error .submission_errorContainer .content ul {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    #submission_error .submission_errorContainer .content ul li a {
+        display: inline-block;
+        padding: 12px 10px 14px 10px;
+        font-size: 9px;
+        margin: 0px 5px;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup .earndPointPopupContainer {
+        width: 97%;
+        padding: 50px 20px 10px 20px;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain {
+        margin-top: 20px;
+        width: 100%;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain .item {
+        margin-left: 0px;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain ul {
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    #mobile_header .mobile_header_right ul li a {
+        border: 1px solid #333333;
+        display: block;
+        padding: 5px 30px 8px 28px;
+        font-family: gc;
+        font-size: 9px;
+        border-radius: 30px;
+        margin-right: 9px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*-- custom file --*/
+@media screen and (min-width: 320px) and (max-width: 346px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
