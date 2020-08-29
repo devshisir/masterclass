@@ -67,6 +67,12 @@ a {
 .show_mobile, .show_sm {
   display: none !important; }
 
+.pst {
+  position: static !important; }
+
+.psr {
+  position: relative !important; }
+
 /*------------------------
 main code start here 
 -------------------------*/
@@ -78,83 +84,328 @@ main code start here
     background-image: url("../img/icons//flags@2x.png"); } }
 
 /*-- start header area --*/
-#main_header {
-  padding: 15px 0px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  position: relative;
-  z-index: 999999999; }
-  #main_header .main_header_toggle span {
-    cursor: pointer; }
-  #main_header .logo a img {
-    height: 19px; }
-  #main_header .menu ul li {
+#mainHeaderTop .menuHeader {
+  padding-left: 20px; }
+  #mainHeaderTop .menuHeader .nav ul li {
     display: inline-block; }
-    #main_header .menu ul li a {
+    #mainHeaderTop .menuHeader .nav ul li a {
+      font-family: gc;
+      font-size: 15px;
+      color: #6997A1;
+      margin-right: 25px;
+      display: block;
+      padding: 25px 0px 28px 0px; }
+      #mainHeaderTop .menuHeader .nav ul li a i {
+        margin-left: 6px;
+        transition: 0.4s; }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop {
+      position: absolute;
+      top: 120%;
+      left: 0;
+      width: 100%;
+      background: #DCFAFF;
+      z-index: 9999999999999999;
+      transition: 0.4s;
+      opacity: 0;
+      visibility: hidden; }
+      #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a {
+        display: block;
+        position: relative; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a img {
+          transition: 0.4s; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a h4 {
+          font-family: gc;
+          font-size: 14px;
+          color: #264C55;
+          margin-top: 5px; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .hoverImage {
+          position: absolute;
+          top: 39.5%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          margin: auto;
+          opacity: 0; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a:hover > img {
+          opacity: 0; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a:hover img.hoverImage {
+          opacity: 1; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .subMegaMenuItem {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          top: 100%;
+          padding: 20px 0px;
+          z-index: 99999999;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.4s; }
+          #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .subMegaMenuItem p {
+            font-size: 14px;
+            font-weight: 500;
+            color: #264C55;
+            text-align: left;
+            width: 97%;
+            line-height: 25px; }
+          #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .subMegaMenuItem img {
+            position: absolute;
+            right: -16px;
+            top: -18px; }
+        #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a:hover .subMegaMenuItem {
+          opacity: 1;
+          visibility: visible; }
+      #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .subMegaMenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 150px;
+        background: #dcfaffc2;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s; }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop2 .container {
+      padding: 0px 150px; }
+      #mainHeaderTop .menuHeader .nav ul li .megaMenuTop2 .container .subMegaMenuItem img {
+        position: absolute;
+        left: -60px;
+        top: -15px; }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop3 .container {
+      padding: 0px 250px; }
+      #mainHeaderTop .menuHeader .nav ul li .megaMenuTop3 .container .subMegaMenuItem img {
+        position: absolute;
+        left: -60px;
+        top: -15px; }
+    #mainHeaderTop .menuHeader .nav ul li:hover i {
+      transform: rotate(180deg); }
+    #mainHeaderTop .menuHeader .nav ul li:hover > a {
+      color: #264C55; }
+    #mainHeaderTop .menuHeader .nav ul li:hover .megaMenuTop {
+      opacity: 1;
+      visibility: visible;
+      top: 100%; }
+
+#mainHeaderTop .mainHeaderTopRight .awardIcon li {
+  list-style: none;
+  position: relative; }
+  #mainHeaderTop .mainHeaderTopRight .awardIcon li .infoTooltip {
+    position: absolute;
+    top: 130%;
+    left: -15px;
+    width: 140px;
+    background: #fff;
+    border: 1px solid #AACBD2;
+    z-index: 9999999999999;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden; }
+    #mainHeaderTop .mainHeaderTopRight .awardIcon li .infoTooltip h5 {
       font-family: gc;
       font-size: 14px;
-      display: inline-block;
-      margin-left: 35px; }
-      #main_header .menu ul li a:hover {
-        color: #FF3A58; }
-  #main_header .menu ul .btn_sp_1 a {
-    border: 2px solid #333333;
-    padding: 7px 40px 13px 40px;
-    display: inline-block;
-    border-radius: 30px; }
-    #main_header .menu ul .btn_sp_1 a:hover {
-      background: #FF3A58;
-      color: #fff;
-      border-color: #FF3A58;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      transform: translateY(-2px); }
-  #main_header .menu ul .btn_sp_2 a {
-    border: 2px solid #333333;
-    width: 150px;
-    border-radius: 30px;
-    padding: 1px 0px 1px 3px;
-    text-align: left; }
-    #main_header .menu ul .btn_sp_2 a img {
-      margin-right: 7px; }
-    #main_header .menu ul .btn_sp_2 a span {
-      position: relative;
-      top: 1px; }
-    #main_header .menu ul .btn_sp_2 a:hover {
-      background: #FF3A58;
-      color: #fff;
-      border-color: #FF3A58;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+      color: #264C55;
+      padding: 7px 0px 12px 0px; }
+  #mainHeaderTop .mainHeaderTopRight .awardIcon li:hover .infoTooltip {
+    top: 120%;
+    opacity: 1;
+    visibility: visible; }
 
-#main_header.fix {
-  position: fixed;
+#mainHeaderTop .mainHeaderTopRight .beforeLogin a {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #333333;
+  font-family: gc;
+  font-size: 15px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); }
+  #mainHeaderTop .mainHeaderTopRight .beforeLogin a:hover {
+    background: #FF3A58;
+    border-color: #FF3A58;
+    color: #fff; }
+
+#mainHeaderTop .mainHeaderTopRight .afterLogin {
+  padding-left: 20px; }
+  #mainHeaderTop .mainHeaderTopRight .afterLogin ul {
+    display: flex;
+    justify-content: space-between; }
+    #mainHeaderTop .mainHeaderTopRight .afterLogin ul li {
+      position: relative; }
+      #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .infoTooltip {
+        position: absolute;
+        top: 130%;
+        left: -30px;
+        width: 110px;
+        background: #fff;
+        border: 1px solid #AACBD2;
+        z-index: 9999999999999;
+        text-align: center;
+        border-radius: 30px;
+        transition: 0.4s;
+        opacity: 0;
+        visibility: hidden; }
+        #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .infoTooltip h5 {
+          font-family: gc;
+          font-size: 14px;
+          color: #264C55;
+          padding: 7px 0px 12px 0px; }
+      #mainHeaderTop .mainHeaderTopRight .afterLogin ul li a {
+        display: block; }
+      #mainHeaderTop .mainHeaderTopRight .afterLogin ul li:hover .infoTooltip {
+        top: 120%;
+        opacity: 1;
+        visibility: visible; }
+
+#mainHeaderTop.fix {
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  z-index: 999999999999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
 
-#mobile_header {
+#mobileMenuTop {
   padding: 15px 0px;
   background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   position: relative;
-  z-index: 999999999999; }
-  #mobile_header .mobile_header_right ul li {
-    display: inline-block;
-    cursor: pointer; }
-    #mobile_header .mobile_header_right ul li a {
-      border: 1px solid #333333;
-      display: block;
-      padding: 6px 25px 10px 25px;
+  z-index: 9999999999999999; }
+  #mobileMenuTop .logo {
+    margin-left: 10px; }
+  #mobileMenuTop .mobileMenuTopRight ul li {
+    display: inline-block; }
+    #mobileMenuTop .mobileMenuTopRight ul li span.mobileToggle {
+      cursor: pointer;
+      font-size: 24px;
+      color: #CBD8DB; }
+    #mobileMenuTop .mobileMenuTopRight ul li a {
       font-family: gc;
       font-size: 13px;
+      color: #333333;
+      border: 1px solid #333333;
       border-radius: 30px;
-      margin-right: 15px; }
+      padding: 6px 25px;
+      margin-right: 15px;
+      display: block; }
+    #mobileMenuTop .mobileMenuTopRight ul li a.afaterLogin {
+      border: none;
+      padding: 0px; }
+      #mobileMenuTop .mobileMenuTopRight ul li a.afaterLogin img {
+        position: relative;
+        top: -6px; }
 
-#mobile_header.fix {
+#mobileMenuTop.fix {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
+  width: 100%; }
+
+#sidebarMenu {
+  position: fixed;
+  top: 0px;
+  left: -100%;
+  width: 0%;
+  height: 100%;
+  background: #fff;
+  z-index: 9999999999999999;
+  overflow-x: scroll;
+  padding-bottom: 100px;
+  transition: 0.5s;
+  opacity: 0; }
+  #sidebarMenu .mobile_menu_info {
+    padding: 15px 0px;
+    background: #fff;
+    position: relative;
+    z-index: 9999999999999999; }
+    #sidebarMenu .mobile_menu_info .logo {
+      margin-left: 10px; }
+    #sidebarMenu .mobile_menu_info .mobileMenuTopRight ul li {
+      display: inline-block; }
+      #sidebarMenu .mobile_menu_info .mobileMenuTopRight ul li span.mobileToggle {
+        cursor: pointer;
+        font-size: 24px;
+        color: #CBD8DB; }
+      #sidebarMenu .mobile_menu_info .mobileMenuTopRight ul li a {
+        font-family: gc;
+        font-size: 13px;
+        color: #333333;
+        border: 1px solid #333333;
+        border-radius: 30px;
+        padding: 6px 25px;
+        margin-right: 15px;
+        display: block; }
+      #sidebarMenu .mobile_menu_info .mobileMenuTopRight ul li a.afaterLogin {
+        border: none;
+        padding: 0px; }
+        #sidebarMenu .mobile_menu_info .mobileMenuTopRight ul li a.afaterLogin img {
+          position: relative;
+          top: -6px; }
+  #sidebarMenu .menu_top {
+    padding: 0px 20px;
+    position: relative;
+    padding-bottom: 25px;
+    padding-top: 25px; }
+    #sidebarMenu .menu_top:after {
+      position: absolute;
+      height: 1px;
+      width: 89%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      content: "";
+      background: #cbd8db66; }
+    #sidebarMenu .menu_top ul li {
+      display: block;
+      margin-bottom: 20px; }
+      #sidebarMenu .menu_top ul li a {
+        font-family: gc;
+        font-size: 15px;
+        color: #37575E; }
+        #sidebarMenu .menu_top ul li a span {
+          min-width: 35px;
+          display: inline-block; }
+        #sidebarMenu .menu_top ul li a .img_1 {
+          position: relative;
+          top: -2px; }
+  #sidebarMenu .menu_bottom {
+    padding: 0px 20px;
+    padding-top: 85px;
+    position: relative;
+    padding-top: 25px; }
+    #sidebarMenu .menu_bottom ul li {
+      display: block;
+      margin-bottom: 25px; }
+      #sidebarMenu .menu_bottom ul li a {
+        font-family: gc;
+        font-size: 15px;
+        color: #37575E; }
+        #sidebarMenu .menu_bottom ul li a span {
+          min-width: 35px;
+          display: inline-block; }
+        #sidebarMenu .menu_bottom ul li a .img_1 {
+          position: relative;
+          top: -2px; }
+
+#sidebarMenu::-webkit-scrollbar {
+  display: none; }
+
+#sidebarMenu::-moz-scrollbar {
+  display: none; }
+
+#sidebarMenu::-o-scrollbar {
+  display: none; }
+
+#sidebarMenu::-ms-scrollbar {
+  display: none; }
+
+#sidebarMenu.show {
   width: 100%;
-  background: #fff; }
+  left: 0;
+  opacity: 1; }
 
 #banar {
   padding: 100px 0px;

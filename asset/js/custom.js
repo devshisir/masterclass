@@ -5,6 +5,21 @@ $(document).ready(function() {
     // hide some default btn  
     $('#goal_mark_done').hide();
 
+    //sub megamenu hover
+    $(".megaMenuTopItem ").mouseover(function(index){
+      $('.subMegaMenu').css({
+        opacity: '1',
+        visibility: 'visible',
+      });
+    });
+
+    $(".megaMenuTopItem").mouseout(function() {
+      $('.subMegaMenu').css({
+        opacity: '0',
+        visibility: 'hidden',
+      });
+    });
+
 
     // this is all goals mark function 
     $('#goals_star,#goals_star2').on('click',function(){
@@ -30,21 +45,24 @@ $(document).ready(function() {
 
     // end all goals mark function 
 
-
+    // mobil menu sidebar
+    $('.mobileToggle').on('click',function(){
+      $('#sidebarMenu').toggleClass('show');
+    })
 
     // this header top fix scroll
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
-            $('#main_header').addClass("animated slideInDown fix");
+            $('#mainHeaderTop').addClass("animated slideInDown fix");
         } else {
-            $('#main_header').removeClass("animated slideInDown fix");
+            $('#mainHeaderTop').removeClass("animated slideInDown fix");
         }
     });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
-            $('#mobile_header').addClass("animated slideInDown fix");
+            $('#mobileMenuTop').addClass("animated slideInDown fix");
         } else {
-            $('#mobile_header').removeClass("animated slideInDown fix");
+            $('#mobileMenuTop').removeClass("animated slideInDown fix");
         }
     });
 

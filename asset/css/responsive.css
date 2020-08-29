@@ -11,12 +11,30 @@
     body{
         overflow-x: hidden !important;
     }
+    /*-- heder top area --*/
+
+    #mainHeaderTop .mainHeaderTopRight .beforeLogin a {
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    #mainHeaderTop .mainHeaderTopRight .afterLogin ul li {
+        position: relative;
+        margin-left: -8px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop3 .container {
+        padding: 0px 180px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop2 .container {
+        padding: 0px 120px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .subMegaMenuItem p {
+        font-size: 13px;
+        width: 119%;
+        line-height: 21px;
+    }
     #banar {
         padding-top: 55px;
-    }
-    #main_header .menu ul li a {
-        font-size: 13px;
-        margin-left: 28px;
     }
     #goals_main .goals_main_item .content h3 {
         font-size: 16px;
@@ -259,15 +277,11 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    #main_header .menu ul li a {
-        font-size: 12px;
-        margin-left: 5px;
+    .show_tab{
+        display: block !important;
     }
-    #main_header .menu ul .btn_sp_1 a {
-        padding: 5px 40px 10px 40px;
-    }
-    #main_header .logo a img {
-        height: 14px;
+    .hide_tab{
+        display: none !important;
     }
     #banar {
         padding: 47px 0px;
@@ -423,13 +437,6 @@
     }
 
     /*-- class submission --*/
-    #main_header .menu ul .btn_sp_2 a {
-        width: 139px;
-    }   
-    #main_header .menu ul .btn_sp_2 a img{
-        height: 35px;
-    }
-
     .classSubmissionMainContainer .comon_bred_come ul li {
         font-size: 13px;
     }
@@ -822,12 +829,6 @@
         margin-top: 30px;
     }
     /*-- class submission --*/
-    #main_header .menu ul .btn_sp_2 a {
-        width: 139px;
-    }   
-    #main_header .menu ul .btn_sp_2 a img{
-        height: 35px;
-    }
 
     .classSubmissionMainContainer .comon_bred_come ul li {
         font-size: 13px;
@@ -1757,15 +1758,6 @@
     #earndPointPopup .earndPointPopupContainer .earndPointPopupMain ul {
         padding-left: 0px;
         margin-bottom: 0px;
-    }
-    #mobile_header .mobile_header_right ul li a {
-        border: 1px solid #333333;
-        display: block;
-        padding: 5px 30px 8px 28px;
-        font-family: gc;
-        font-size: 9px;
-        border-radius: 30px;
-        margin-right: 9px;
     }
 
 
