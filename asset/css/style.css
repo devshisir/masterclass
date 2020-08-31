@@ -734,6 +734,13 @@ main code start here
   opacity: 1;
   visibility: visible; }
 
+.errorForm {
+  font-weight: 500;
+  font-size: 12px;
+  color: #FF3A58;
+  font-style: italic;
+  margin-top: 8px; }
+
 #otp_popup {
   position: fixed;
   top: 0;

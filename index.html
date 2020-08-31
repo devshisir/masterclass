@@ -269,7 +269,7 @@
                      </div>
                      <div class="col-lg-8">
                         <div class="beforeLogin">
-                           <a href="#">Sign In</a>
+                           <a id="singinBtn" href="#">Sign In</a>
                         </div>
                         <!-- div class="afterLogin">
                            <ul>
@@ -302,7 +302,7 @@
                <div class="mobileMenuTopRight text-right">
                   <ul>
                      <li>
-                        <a href="#">Sign In</a>
+                        <a id="signIn_btn_mobile" href="#">Sign In</a>
                         <!-- <a class="afaterLogin" href="#"><img src="asset/img/icons/user2.png" alt=""></a> -->
                      </li>
                      <li><span class="mobileToggle"><i class="fa fa-bars"></i></span></li>
@@ -743,13 +743,19 @@
             <div class="tab-content" id="myTabContent">
                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                   <form id="form_1" action="#">
-                     <input id="phone" type="tel">
+                     <div class="signInInputBox">
+                        <input id="phone" type="tel">
+                        <p class="errorForm">Please Enter Valid Mobile Nmber.</p>
+                     </div>
                      <button type="submit">Continue with Mobile</button>
                   </form>
                </div>
                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                   <form id="form_2" action="#">
-                     <input id="email" type="email" placeholder="Enter Your Email..">
+                     <div class="signInInputBox">
+                        <input id="email" type="email" placeholder="Enter Your Email..">
+                        <p class="errorForm">Please Enter Valid Email Address.</p>
+                     </div>
                      <button type="submit">Continue with Email</button>
                   </form>
                </div>
