@@ -1891,6 +1891,10 @@ main code start here
                 background: #FF3A58;
                 color: #fff;
                 border-color: #FF3A58; }
+            #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a.active {
+              background: #B5FEDB;
+              border-color: #12DA98;
+              color: #12DA98; }
             #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li p {
               position: absolute;
               left: 5px;

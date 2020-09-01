@@ -2430,6 +2430,11 @@ main code start here
                                     border-color: $mainColor;
                                 }
                             }
+                            a.active{
+                                background: #B5FEDB;
+                                border-color: #12DA98;
+                                color: #12DA98;
+                            }
                             p{
                                 position: absolute;
                                 left: 5px;

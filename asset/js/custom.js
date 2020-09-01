@@ -402,7 +402,12 @@ $(document).ready(function() {
       })
 
 
-        
+      // this is for single masterClass slot selection ctive class
+      $('#slotSelection,#slotSelection2').on('click',function(){
+        $('#slotSelection,#slotSelection2').removeClass('active');
+        $(this).addClass('active');
+        return false;
+      })  
 
 
 
