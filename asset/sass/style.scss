@@ -373,42 +373,78 @@ main code start here
     opacity: 0;
     .mobile_menu_info{
         padding: 15px 0px;
-    background: #fff;
-    position: relative;
-    z-index: 9999999999999999;
-    .logo{
-        margin-left: 10px;
-    }
-    .mobileMenuTopRight{
-        ul{
-            li{
-                display: inline-block;
-                span.mobileToggle{
-                    cursor: pointer;
-                    font-size: 24px;
-                    color: #CBD8DB;
-                }
-                a{
-                    font-family: gc;
-                    font-size: 13px;
-                    color: #333333;
-                    border: 1px solid #333333;
-                    border-radius: 30px;
-                    padding: 6px 25px;
-                    margin-right: 15px;
-                    display: block
-                }
-                a.afaterLogin{
-                    border: none;
-                    padding: 0px;
-                    img{
-                        position: relative;
-                        top: -6px;
+        background: #fff;
+        position: relative;
+        z-index: 9999999999999999;
+        .logo{
+            margin-left: 10px;
+        }
+        .mobileMenuTopRight{
+            ul{
+                li{
+                    display: inline-block;
+                    span.mobileToggle{
+                        cursor: pointer;
+                        font-size: 24px;
+                        color: #CBD8DB;
+                    }
+                    a{
+                        font-family: gc;
+                        font-size: 13px;
+                        color: #333333;
+                        border: 1px solid #333333;
+                        border-radius: 30px;
+                        padding: 6px 25px;
+                        margin-right: 15px;
+                        display: block
+                    }
+                    a.afaterLogin{
+                        border: none;
+                        padding: 0px;
+                        img{
+                            position: relative;
+                            top: -6px;
+                        }
                     }
                 }
             }
         }
     }
+    .menu_after_signIn{
+        padding: 0px 20px;
+        position: relative;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        &:after{
+            position: absolute;
+            height: 1px;
+            width: 89%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            content: "";
+            background: #cbd8db66;
+        }
+        ul{
+            li{
+                display: block;
+                margin-bottom: 25px;
+                a{
+                    span{
+                        min-width: 35px;
+                        display: inline-block;
+                    }
+                    .img_1{
+                        position: relative;
+                        top: -2px
+                    }
+                    font-family: gc;
+                    font-size: 14px;
+                    color: #37575E;
+                }
+            }
+        }
     }
     .menu_top{
         padding: 0px 20px;
@@ -440,7 +476,7 @@ main code start here
                         top: -2px
                     }
                     font-family: gc;
-                    font-size: 15px;
+                    font-size: 14px;
                     color: #37575E;
                 }
             }
@@ -465,7 +501,7 @@ main code start here
                         top: -2px
                     }
                     font-family: gc;
-                    font-size: 15px;
+                    font-size: 14px;
                     color: #37575E;
                 }
             }
