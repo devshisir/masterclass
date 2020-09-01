@@ -73,6 +73,9 @@ a {
 .psr {
   position: relative !important; }
 
+.img_res {
+  width: 100% !important; }
+
 /*------------------------
 main code start here 
 -------------------------*/
