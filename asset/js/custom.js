@@ -96,12 +96,7 @@ $(document).ready(function() {
     $('#signinConfirmation_popup').removeClass('show');
   })
   
-  // scroll master class active class
-  $('.masterClass_scroll_header_item a').on('click',function(){
-    $('.masterClass_scroll_header_item a').removeClass('active');
-    $(this).addClass('active');
-    return false;
-  })
+
 
   // scroll spy for class list
   // Add scrollspy to <body>

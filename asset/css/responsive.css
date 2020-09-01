@@ -630,7 +630,10 @@
 
 
 @media (max-width: 767px) {
-
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a.active:after {
+        width: 100%;
+        opacity: 1;
+    }
 }
 
 /*-- Phone Landscape --*/

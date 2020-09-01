@@ -435,49 +435,49 @@
             <div class="col-lg-12">
                <div class="masterClass_scroll_header_container">
                   <div class="masterClass_scroll_header_item">
-                     <a class="active" href="#masterClass_scroll_item_1">
+                     <a class="active date_1" href="#01">
                         <h4>TODAY</h4>
                         <h3>24</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_2">
+                     <a href="#02" class="date_2">
                         <h4>S</h4>
                         <h3>25</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_3">
+                     <a href="#03" class="date_3">
                         <h4>S</h4>
                         <h3>26</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_4">
+                     <a href="#04" class="date_4">
                         <h4>M</h4>
                         <h3>27</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_5">
+                     <a href="#05" class="date_5">
                         <h4>T</h4>
                         <h3>28</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_6">
+                     <a href="#06" class="date_6">
                         <h4>W</h4>
                         <h3>29</h3>
                         <p>Jul</p>
                      </a>
                   </div>
                   <div class="masterClass_scroll_header_item">
-                     <a href="#masterClass_scroll_item_7">
+                     <a href="#07" class="date_7">
                         <h4>T</h4>
                         <h3>30</h3>
                         <p>Jul</p>
@@ -492,7 +492,7 @@
 
    <section id="masterCLassMainContainerScrollSpy">
 
-   <div id="masterClass_scroll_item_1" class="masterClass_scroll_item_1_class">
+   <div id="01" class="masterClass_scroll_item_1_class" counter="1">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -598,7 +598,7 @@
          </div>
    </div>
 
-   <div id="masterClass_scroll_item_2" class="masterClass_scroll_item_1_class">
+   <div id="02" class="masterClass_scroll_item_1_class" counter="2">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -704,7 +704,7 @@
       </div>
    </div>
 
-   <div id="masterClass_scroll_item_3" class="masterClass_scroll_item_1_class">
+   <div id="03" class="masterClass_scroll_item_1_class" counter="3">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -810,7 +810,7 @@
       </div>
    </div>
 
-   <div id="masterClass_scroll_item_4" class="masterClass_scroll_item_1_class">
+   <div id="04" class="masterClass_scroll_item_1_class" counter="4">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -916,7 +916,7 @@
       </div>
    </div>
 
-   <div id="masterClass_scroll_item_5" class="masterClass_scroll_item_1_class">
+   <div id="05" class="masterClass_scroll_item_1_class" counter="5">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -1022,7 +1022,7 @@
       </div>
    </div>
 
-   <div id="masterClass_scroll_item_6" class="masterClass_scroll_item_1_class">
+   <div id="06" class="masterClass_scroll_item_1_class" counter="6">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -1128,7 +1128,7 @@
       </div>
    </div>
 
-   <div id="masterClass_scroll_item_7" class="masterClass_scroll_item_1_class">
+   <div id="07" class="masterClass_scroll_item_1_class" counter="7">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -1559,6 +1559,27 @@
       $(document).ready(function() {
          $(".myPinCode input").jqueryPincodeAutotab();
       });
+
+
+
+      // this is for class scroll function
+      $(document).ready(function() {
+         // this is for active first class
+         $('.masterClass_scroll_header_container').find('.masterClass_scroll_header_item a:first').addClass('active');
+         //scroll function for active class
+         $(window).scroll(function () {
+              $('.masterClass_scroll_item_1_class').each(function () {
+                  var screenPosition = $(this)[0].getBoundingClientRect();
+                  if (screenPosition.top > 0 && screenPosition.top < 150) {
+                      $('.masterClass_scroll_header_item a').removeClass('active')
+                      $('.date_' + $(this).attr('counter')).addClass('active')
+                  }
+              })
+          })
+      })
+
+
+
    </script>
   
 </body>

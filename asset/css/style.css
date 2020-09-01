@@ -1690,6 +1690,8 @@ main code start here
       #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a.active:after {
         width: 25px;
         opacity: 1; }
+      #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a.active h3 {
+        color: #FF3A58; }
   #masterClass_scroll_header ul li {
     display: inline-block; }
 
