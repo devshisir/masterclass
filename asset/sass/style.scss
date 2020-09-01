@@ -2164,6 +2164,11 @@ main code start here
             }
         }
     }
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
 }
 #masterClass_scroll_header.fix{
     position: fixed;
@@ -2175,6 +2180,10 @@ main code start here
 
 
 //masterClass_scroll_item_1
+#masterCLassMainContainerScrollSpy{
+    padding-bottom: 140px;
+    background: #FBFCF7;
+}
 .masterClass_scroll_item_1_class{
     padding-top: 144px;
     background: #FBFCF7;
@@ -2265,12 +2274,7 @@ main code start here
         }
     }
 }
-#masterClass_scroll_item_1{
-    padding-top: 100px !important;
-}
-#masterClass_scroll_item_7{
-    padding-bottom: 150px;
-}
+
 
 // singleMasterClassPageBanar
 #singleMasterClassPageBanar{

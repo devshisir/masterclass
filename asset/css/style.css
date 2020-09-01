@@ -1690,6 +1690,8 @@ main code start here
       #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a.active:after {
         width: 25px;
         opacity: 1; }
+  #masterClass_scroll_header ul li {
+    display: inline-block; }
 
 #masterClass_scroll_header.fix {
   position: fixed;
@@ -1697,6 +1699,10 @@ main code start here
   left: 0;
   width: 100%;
   z-index: 99999999999999999; }
+
+#masterCLassMainContainerScrollSpy {
+  padding-bottom: 140px;
+  background: #FBFCF7; }
 
 .masterClass_scroll_item_1_class {
   padding-top: 144px;
@@ -1764,12 +1770,6 @@ main code start here
         .masterClass_scroll_item_1_class .masterClass_scroll_item_1_main .masterClass_scroll_item_1_main_item .content .content_right h5 a {
           position: relative;
           left: 10px; }
-
-#masterClass_scroll_item_1 {
-  padding-top: 100px !important; }
-
-#masterClass_scroll_item_7 {
-  padding-bottom: 150px; }
 
 #singleMasterClassPageBanar {
   padding: 40px 0px 100px 0px;
