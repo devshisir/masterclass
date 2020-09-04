@@ -405,6 +405,16 @@ $(document).ready(function() {
       })  
 
 
+      // this is for video slider
+      $(".whatStudentCreateSlider").slick({
+            dots: false,
+            loop: false,
+            centerMode: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerPadding: '0px',
+       });
+
 
     
 });

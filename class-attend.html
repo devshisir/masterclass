@@ -692,29 +692,120 @@
                </div>
             </div>
          </div>
-         <div class="whatStudentCreateSlider">
-             <div class="row">
-                <div class="col-lg-5 mx-auto">
-                   <div class="whatStudentCreateSliderActive owl-carousel">
-                      <div class="whatStudentCreateSliderItem text-center">
-                         <img src="asset/img/slider/1.png" alt="" />
-                      </div>
-                      <div class="whatStudentCreateSliderItem text-center">
-                         <img src="asset/img/slider/1.png" alt="" />
-                      </div>
-                      <div class="whatStudentCreateSliderItem text-center">
-                         <img src="asset/img/slider/1.png" alt="" />
-                      </div>
-                      <div class="whatStudentCreateSliderItem text-center">
-                         <img src="asset/img/slider/1.png" alt="" />
-                      </div>
-                   </div>
-                </div>
-             </div>
-         </div>
       </div>
-      <img id="workBgStident" src="asset/img/slider/bnar.png" alt="" />
+      <div class="whatStudentCreateSliderContainer">
+         <div class="whatStudentCreateSlider">
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/1.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/1.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/1.png" alt="">
+            </div>
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/2.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/2.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/2.png" alt="">
+            </div>
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/3.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/3.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/3.png" alt="">
+            </div>
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/1.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/1.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/1.png" alt="">
+            </div>
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/2.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/2.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/2.png" alt="">
+            </div>
+            <div class="whatStudentCreateSliderItem">
+               <video
+                   id="masterClassVdeo"
+                   controls
+                 >
+                   <source src="asset/video/slider/1.mp4" type="video/mp4" />
+                   <source src="asset/video/slider/1.mp4" type="video/webm" />
+                   <p class="vjs-no-js">
+                     To view this video please enable JavaScript, and consider upgrading to a
+                     web browser that
+                     <a href="https://videojs.com/html5-video-support/" target="_blank"
+                       >supports HTML5 video</a
+                     >
+                   </p>
+               </video>
+               <img id="videoPoster" src="asset/video/slider/1.png" alt="">
+            </div>
+         </div>
+         <span id="mobileScreen"></span>
+      </div>
    </section>
+   <img src="asset/video/slider/mobile.png">
+
+
+
+
    
    <section id="footer_go_tv">
       <div class="container">
@@ -1062,6 +1153,8 @@
             var player = videojs('masterClassVdeo');
             player.play();
          })
+         // this is slick slider for video
+         
       });
    </script>
   

@@ -260,6 +260,34 @@ main code start here
         top: 120%;
         opacity: 1;
         visibility: visible; }
+      #mainHeaderTop .mainHeaderTopRight .afterLogin ul li:hover .profileMegaMenu {
+        opacity: 1;
+        top: 100%;
+        visibility: visible; }
+      #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu {
+        position: absolute;
+        top: 110%;
+        left: 0;
+        background: #DCFAFF;
+        padding: 20px;
+        width: 100%;
+        z-index: 99999;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.4s; }
+        #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu .profileMegaMenuContainer {
+          display: flex; }
+          #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu .profileMegaMenuContainer .profileMegaMenuItem {
+            text-align: center; }
+            #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu .profileMegaMenuContainer .profileMegaMenuItem img {
+              transition: 0.4s; }
+            #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu .profileMegaMenuContainer .profileMegaMenuItem p {
+              font-family: gc;
+              font-size: 14px;
+              color: #264C55;
+              margin-top: 5px; }
+            #mainHeaderTop .mainHeaderTopRight .afterLogin ul li .profileMegaMenu .profileMegaMenuContainer .profileMegaMenuItem:hover img {
+              filter: grayscale(1); }
 
 #mainHeaderTop.fix {
   position: fixed !important;
@@ -2284,14 +2312,13 @@ main code start here
   background: #fff;
   position: relative;
   z-index: 1; }
-  #whatStudentCreate:after {
+  #whatStudentCreate .phone_center {
     position: absolute;
-    width: 100%;
-    height: 40px;
-    bottom: 0;
-    left: 0;
-    content: "";
-    background: #635D5D; }
+    top: 56%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 69%; }
   #whatStudentCreate #workBgStident {
     position: absolute;
     bottom: 30px;
@@ -2305,49 +2332,47 @@ main code start here
       font-family: gc;
       font-size: 23px;
       color: #333333; }
+  #whatStudentCreate .whatStudentCreateSliderContainer {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px; }
+    #whatStudentCreate .whatStudentCreateSliderContainer #mobileScreen {
+      position: absolute;
+      top: 34px;
+      left: 50%;
+      border: 11px solid #000;
+      height: 92%;
+      width: 421px;
+      border-radius: 25px;
+      transform: translateX(-50%); }
   #whatStudentCreate .whatStudentCreateSlider {
-    margin-top: 80px; }
-    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-next {
-      position: absolute;
-      height: 50px;
-      width: 50px;
-      background: #F6F6F6;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 50px;
-      bottom: 70px;
-      right: 40px;
-      color: #707070;
-      transition: 0.4s; }
-      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-next:hover {
-        background: #FF3A58;
-        color: #fff; }
-    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-next.disabled {
-      opacity: 0;
-      visibility: hidden; }
-    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-prev {
-      position: absolute;
-      height: 50px;
-      width: 50px;
-      background: #F6F6F6;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 50px;
-      bottom: 70px;
-      left: 40px;
-      color: #707070;
-      transition: 0.4s; }
-      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-prev:hover {
-        background: #FF3A58;
-        color: #fff; }
-    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-prev.disabled {
-      opacity: 0;
-      visibility: hidden; }
-    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .whatStudentCreateSliderItem img {
-      width: auto;
-      margin: 0 auto;
+    margin-top: 50px; }
+    #whatStudentCreate .whatStudentCreateSlider .slick-list {
+      overflow: visible; }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem {
       position: relative;
-      z-index: 9999999; }
+      opacity: 0.3;
+      transition: 0.4s; }
+      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: 0.4s; }
+      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem video {
+        width: 100%;
+        transition: 0.4s; }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center {
+      opacity: 1;
+      z-index: 99999999999999 !important; }
+      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center img {
+        visibility: hidden;
+        transform: scale(1.1);
+        border-radius: 20px; }
+      #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center video {
+        transform: scale(1.1);
+        border-radius: 20px; }
 
 #footer_go_tv {
   padding: 40px 0px;

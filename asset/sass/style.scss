@@ -293,6 +293,44 @@ main code start here
                             opacity: 1;
                             visibility: visible;
                         }
+                        .profileMegaMenu{
+                            opacity: 1;
+                            top: 100%;
+                            visibility: visible;
+                        }
+                    }
+                    // this is profile hover mega menu
+                    .profileMegaMenu{
+                        position: absolute;
+                        top: 110%;
+                        left: 0;
+                        background: #DCFAFF;
+                        padding: 20px;
+                        width: 100%;
+                        z-index: 99999;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.4s;
+                        .profileMegaMenuContainer{
+                            display: flex;
+                            .profileMegaMenuItem{
+                                text-align: center;
+                                img{
+                                    transition: 0.4s;
+                                }
+                                p{
+                                    font-family: gc;
+                                    font-size: 14px;
+                                    color: #264C55;
+                                    margin-top: 5px;
+                                }
+                                &:hover{
+                                    img{
+                                        filter: grayscale(1);
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -2942,21 +2980,37 @@ main code start here
     }
 }
 
+
+
+
+
+
+
+
+
 //whatStudentCreate
 #whatStudentCreate{
     padding: 50px 0px 0px 0px;
     background: #fff;
     position: relative;
     z-index: 1;
-    &:after{
+    .phone_center{
         position: absolute;
-        width: 100%;
-        height: 40px;
-        bottom: 0;
-        left: 0;
-        content: "";
-        background: #635D5D;
+        top: 56%;
+        z-index: 1;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 69%;
     }
+    // &:after{
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 40px;
+    //     bottom: 0;
+    //     left: 0;
+    //     content: "";
+    //     background: #635D5D;
+    // }
     #workBgStident{
         position: absolute;
         bottom: 30px;
@@ -2973,64 +3027,82 @@ main code start here
             color: #333333;
         }
     }
+    
+    // whatStudentCreateSlider
+    .whatStudentCreateSliderContainer{
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 40px;
+        #mobileScreen{
+            position: absolute;
+            top: 34px;
+            left: 50%;
+            border: 11px solid #000;
+            height: 92%;
+            width: 421px;
+            border-radius: 25px;
+            transform: translateX(-50%);
+        }
+    }
     .whatStudentCreateSlider{
-        margin-top: 80px;
-        .whatStudentCreateSliderActive{
-            .owl-nav{
-                .owl-next{
-                    position: absolute;
-                    height: 50px;
-                    width: 50px;
-                    background: #F6F6F6;
-                    border-radius: 50%;
-                    text-align: center;
-                    line-height: 50px;
-                    bottom: 70px;
-                    right: 40px;
-                    color: #707070;
-                    transition: 0.4s;
-                    &:hover{
-                        background: $mainColor;
-                        color: #fff;
-                    }
-                }
-                .owl-next.disabled{
-                    opacity: 0;
-                    visibility: hidden;
-                }
-                .owl-prev{
-                    position: absolute;
-                    height: 50px;
-                    width: 50px;
-                    background: #F6F6F6;
-                    border-radius: 50%;
-                    text-align: center;
-                    line-height: 50px;
-                    bottom: 70px;
-                    left: 40px;
-                    color: #707070;
-                    transition: 0.4s;
-                    &:hover{
-                        background: $mainColor;
-                        color: #fff;
-                    }
-                }
-                .owl-prev.disabled{
-                    opacity: 0;
-                    visibility: hidden;
-                }
+        margin-top: 50px;
+        .slick-list{
+            overflow: visible;
+        }
+        .whatStudentCreateSliderItem{
+            position: relative;
+            opacity: 0.3;
+            transition: 0.4s;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                transition: 0.4s;
             }
-            .whatStudentCreateSliderItem{
-                img{
-                    width: auto;
-                    margin: 0 auto;
-                    position: relative;
-                    z-index: 9999999;
-                }
+            video{
+                width: 100%;
+                transition: 0.4s;
+            }
+        }
+        .whatStudentCreateSliderItem.slick-current.slick-active.slick-center{
+            opacity: 1;
+            z-index: 99999999999999 !important;
+            img{
+                visibility: hidden;
+                transform: scale(1.1);
+                border-radius: 20px;
+            }
+            video{
+                transform: scale(1.1);
+                border-radius: 20px;
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
 
 //footer_go_tv
 #footer_go_tv{
